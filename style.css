@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+}
+
+hr, header{
+	color: #0e0220;
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+
+
+ .boxHash{
+ 	width: 100px;
+ 	height: 100px	
+ }
+
+ .boxBottom{
+ 	border-bottom: 3px solid #354658;
+
+ }
+
+
+.boxRight{
+	border-right:  3px solid #354658;
+}
+
+/*--------------Footer coisarada --------------*/
+ .footer{
+ 	position:absolute;
+ 	bottom:0;
+ 	width:100%;
+ 	background-color: #0e0220;
+ 	opacity: 0.95;    
+}
+
+/*div com todos os itens*/
+.contactItem{    
+    margin-left:2px;
+    padding-left:5px;
+   }
+
+.contactItem:hover{
+	color: #ea9085;	
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: flex-end;  
+}
+
+.contactItem,  .madeby{
+  color: #fff;}
+
+/*  --------------Made by --------------*/
+.madeby { 
+  display: block;
+  font-size: 0.9em;
+  text-align: right;
+  margin: 0px;
+}
+
+.made-lamp img {
+  width: 15px;
+  height: 15px;
+  color:#ffd700;
+  border-color: #ffd700;
+  animation: lamp 3s linear infinite;
+}
+
+@keyframes lamp {
+    0%   {transform: rotate(0deg);}
+    10%  {transform: rotate(35deg);}
+    20%  {transform: rotate(72deg);}
+    30%  {transform: rotate(108deg);}
+    40% {transform: rotate(144deg);}
+    50% {transform: rotate(180deg);}
+    60% {transform: rotate(216deg);}
+    70% {transform: rotate(252deg);}
+    80% {transform: rotate(288deg);}
+    90% {transform: rotate(324deg);}
+    100% {transform: rotate(360deg);}
+}
